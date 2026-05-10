@@ -49,6 +49,7 @@ zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psq
 # 7. Перезапуск служб и автозагрузка
 systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
+```
 
 ![Экран авторизации Zabbix](img/zab.png)
 
@@ -119,7 +120,7 @@ nc -zv 178.218.119.171 10050
 
 # Проверка получения данных от агента
 zabbix_get -s 178.218.119.171 -p 10050 -k agent.ping
-
+```
 
 ![Статус агентов](img/zab2.png)
 
