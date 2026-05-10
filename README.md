@@ -52,9 +52,9 @@ systemctl enable zabbix-server zabbix-agent apache2
 ```bash
 
 ### Результат
-![Экран авторизации Zabbix](sys-mon-hw-02/img/zab.png)
+![Экран авторизации Zabbix](img/zab.png)
 
-![Дефолтный дашборд](sys-mon-hw-02/img/zab1.png)
+![Дефолтный дашборд](img/zab1.png)
 
 
 
@@ -147,6 +147,6 @@ zabbix_get -s 178.218.119.171 -p 10050 -k agent.ping
 
 
 ### Результат
-![Статус агентов](sys-mon-hw-02/img/zab2.png)
+![Статус агентов](img/zab2.png)
 
-![Метрики](sys-mon-hw-02/img/zab3.png)
+![Метрики](img/zab3.png)
